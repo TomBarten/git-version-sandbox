@@ -5,6 +5,7 @@
     "^refs/heads/main$"
   ],
   "release": {
+    "branchName": "release/projectA-v{version}",
     "tagName": "projectA-v{version}",
     "versionIncrement": "build",
     "firstUnstableTag": "rc"

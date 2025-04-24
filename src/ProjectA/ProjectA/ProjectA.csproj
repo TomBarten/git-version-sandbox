@@ -9,6 +9,11 @@
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
 
+    <!-- See: https://dotnet.github.io/Nerdbank.GitVersioning/docs/build-systems/msbuild.html#build-performance -->
+    <PropertyGroup>
+      <GitVersionBaseDirectory>$(MSBuildThisFileDirectory)</GitVersionBaseDirectory>
+    </PropertyGroup>
+    
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2"/>
     </ItemGroup>

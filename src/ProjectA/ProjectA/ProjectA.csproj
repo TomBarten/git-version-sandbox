@@ -4,8 +4,8 @@
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Company>DAF Trucks N.V.</Company>
-        <Copyright>Copyright © DAF Trucks N.V. $([System.DateTime]::Now.Year)</Copyright>
+        <Company>DUFF Beer N.V.</Company>
+        <Copyright>Copyright © DUFF BEER N.V. $([System.DateTime]::Now.Year)</Copyright>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
 

@@ -5,7 +5,8 @@
     "precision": "revision"
   },
   "publicReleaseRefSpec": [
-    "^refs/heads/main$"
+    "^refs/heads/main$",
+    "^refs/heads/feature/add-assembly-version-config$"
   ],
   "release": {
     "tagName": "projectA-v{version}{prereleaseVersion}",

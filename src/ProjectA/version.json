@@ -8,8 +8,8 @@
     "^refs/heads/main$"
   ],
   "release": {
-    "tagName": "projectA-v{version}",
-    "branchName": "release/projectA-v{version}",
+    "tagName": "projectA-v{version}{prereleaseVersion}",
+    "branchName": "release/projectA-v{version}{prereleaseVersion}",
     "versionIncrement": "build",
     "firstUnstableTag": "rc"
   },
